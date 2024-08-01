@@ -51,7 +51,7 @@ router.get("/", async (req, res)=>{ //página principal
 });
 
 
-//Crear un nuevo libro (POST) ES decir crear un nuevo RECUROS
+//Crear un nuevo libro (POST) ES decir crear un nuevo RECURSO
 router.post("/", async (req, res)=>{
     const {title, author,genre, publicationDate} = req?.body; //destructuramos el req que se envía (con el book a ingresar)
     //?si algo está mal
